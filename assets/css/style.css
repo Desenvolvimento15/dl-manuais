@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ProximaNovaRegular;  
+    src: url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/manuais-e-termos-de-garantia/assets/css/fonts/proxima-nova-regular.woff);   
+}
+@font-face {
+    font-family: ProximaNovaSemiBold;  
+    src: url(https://d21yk8meuo6ego.cloudfront.net/Custom/Content/Themes/Xiaomi/Templates/landing-pages/manuais-e-termos-de-garantia/assets/css/fonts/proxima-nova-semibold.woff);   
+}
+
+.wd-browsing-breadcrumbs{display:none!important;}
+
+
+.grid-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+div.conteudo_pagina_manuais h1.titulo{
+	display: block;
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 23px;
+    font-family: "ProximaNovaSemiBold", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+div.conteudo_pagina_manuais form#formulario-manuais {
+    background: #A5CE38 !important;
+    color: #fff;
+    padding: 30px 60px 60px 60px;
+    margin-bottom: 30px;
+    height: 22rem;
+}
+
+div.conteudo_pagina_manuais input#filter{
+	display: block;
+    width: 40%;
+	max-width: 1200px;
+    margin: auto !important;
+    height: 18px;
+    padding: 10px 15px;
+    border: 0;
+    background-color: #ffffff !important;
+    border-radius: 7px !important;
+    font-size: 17px;
+    color: black !important;
+	outline: none;
+	font-family: "ProximaNovaRegular", Arial, sans-serif;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais{
+	max-width: 1200px;
+    margin: 50px auto !important;
+    padding: 0 15px !important;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais li{
+	list-style: none;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais h4.titulo_secao{
+	font-size: 18px;
+    text-transform: uppercase;
+    color: #212121;
+    font-family: "ProximaNovaSemiBold", Arial, sans-serif;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais li p{
+	font-size: 13px;
+    line-height: 18px;
+	letter-spacing: 1px;
+	color: #212121;
+    font-family: "ProximaNovaRegular", Arial, sans-serif;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais li p span{
+	font-size: smaller;
+    color: #a9a9a9;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais li p a{
+	color: #A5CE38;
+    text-decoration: none;
+}
+
+div.conteudo_pagina_manuais ul.lista_manuais li p a:hover{
+	text-decoration: underline;
+}
+
+div.conteudo_pagina_manuais p.txt_aguarde, div.conteudo_pagina_manuais p.nenhum_resultado{
+	font-size: 18px;
+    color: #212121;
+    font-family: "ProximaNovaSemiBold", Arial, sans-serif;
+}
+
+@media screen and (max-width:991px){
+	div.conteudo_pagina_manuais form#formulario-manuais {
+		padding: 30px 15px 60px 15px;
+	}
+	
+	div.conteudo_pagina_manuais input#filter{
+		width: 100%;
+	}	
+}
