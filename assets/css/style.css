@@ -15,16 +15,44 @@
 .wd-browsing-breadcrumbs{display:none!important;}
 
 
-.grid-buttons{
+    .grid-buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-}
+    gap: 1rem;
+    width: 40rem;
+    margin: 0 auto;
+    }
 
 
+    .buttons-white{
+    color: #fff;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    border: 2px solid #fff;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 
+    }
+
+    .buttons-white:hover{
+    background-color: #fff;
+    color: #000;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
 
 
 div.conteudo_pagina_manuais h1.titulo{
