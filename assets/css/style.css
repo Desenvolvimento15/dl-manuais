@@ -13,19 +13,38 @@
 }
 
 .wd-browsing-breadcrumbs{display:none!important;}
+    p{
+        font-family: "ProximaNovaRegular", Arial, sans-serif;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 
+    .grid-buttons-01 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    align-content: center;
+    max-width: 80%;
+    font-family: "ProximaNovaRegular", Arial, sans-serif;
+    }
 
-    .grid-buttons {
+    .grid-buttons-02{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 40rem;
+    width: 55rem;
     margin: 0 auto;
+    margin-top: 2.5rem;
+    font-family: "ProximaNovaRegular", Arial, sans-serif;
     }
-
 
     .buttons-white{
     color: #fff;
@@ -38,7 +57,6 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-
     }
 
     .buttons-white:hover{
@@ -71,7 +89,7 @@ div.conteudo_pagina_manuais form#formulario-manuais {
     color: #fff;
     padding: 30px 60px 60px 60px;
     margin-bottom: 30px;
-    height: 22rem;
+    height: 30rem;
 }
 
 div.conteudo_pagina_manuais input#filter{
