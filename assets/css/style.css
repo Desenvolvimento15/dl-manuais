@@ -20,11 +20,8 @@ ion-icon{
     height: 1.5rem;
 }
 
-input[type='text'] {
-    background-image: url(../media/search-outline.svg);
-    background-repeat: no-repeat;
-    display: flex;
-}
+
+
 
 .wd-browsing-breadcrumbs{display:none!important;}
 
@@ -36,18 +33,18 @@ input[type='text'] {
     }
 
     .grid-buttons-01 {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-        margin-top: 3rem;
-        align-content: center;
-        max-width: 55%;
-        font-family: 'Camphor Pro', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    align-content: center;
+    max-width: 55%;
+    font-family: 'Camphor Pro', sans-serif;
     }
 
     .grid-buttons-02 {
@@ -75,6 +72,7 @@ input[type='text'] {
     align-content: center;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
     }
 
     .buttons-white:hover{
