@@ -8,8 +8,9 @@
     <title>DL - Manuais</title>
     
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 </head>
 
 
@@ -18,31 +19,34 @@
 <div class="conteudo_pagina_manuais">
     
 	<form id="formulario-manuais" action="" class="styled" method="post">
+		
+		<h1 class="titulo">Suporte Xiaomi</h1>
 
         <div class="grid-buttons-01">
-            <div class="buttons-white">SUPORTE VIA WHATSAPP</div>
-            <div class="buttons-white">SUPORTE VIA TELEFONE</div>
-            <div class="buttons-white">SUPORTE VIA E-MAIL</div>
-            <div class="buttons-white">DICAS DE SEGURANÇA</div>
-            <div class="buttons-white">PERDI MEU SMARTPHONE</div>
+
+            <div class="buttons-white"><ion-icon name="logo-whatsapp"></ion-icon><h4>SUPORTE VIA WHATSAPP</h4></div>
+            <div class="buttons-white"><ion-icon name="call-outline"></ion-icon><h4>VIA TELEFONE</h4></div>
+            <div class="buttons-white"><ion-icon name="mail-outline"></ion-icon><h4>SUPORTE VIA E-MAIL</h4></div>
+            <div class="buttons-white"><ion-icon name="lock-closed-outline"></ion-icon><h4>DICAS DE SEGURANÇA</h4></div>
+            <div class="buttons-white"><ion-icon name="alert-circle-outline"></ion-icon><h4>PERDI MEU SMARTPHONE</h4></div>
+
         </div>
 
-		<h1 class="titulo">Suporte Xiaomi</h1>
-		<p style="color:#fff; text-align: center; ">
+		<p style="text-align: center; ">
 			Os termos e manuais abaixo somente se aplicam aos produtos vendidos e comercializados pela IZU Comércio de Eletrônicos LTDA. <br />
             É expressamente proibida a cópia ou reprodução dos manuais, sendo vedada sua distribuição ou<br>divulgação em qualquer meio, seja físico ou digital, sem expressa autorização.
 		</p>
 
-		<input type="text" id="filter" class="text-input" placeholder="Pesquise um produto..." value="" autocomplete="off">
+		<input type="text" id="filter" class="text-input" placeholder="      Pesquise um produto" value="" autocomplete="off">
 
-        <p style="color:#fff; text-align: center;">Ou selecione uma categoria para acessar o manual:</p>
+        <p style="text-align: center;">Ou selecione uma categoria para acessar o manual:</p>
 
         <div class="grid-buttons-02">
-            <div class="buttons-white-2">Smartphones</div>
-            <div class="buttons-white-2">Audio</div>
-            <div class="buttons-white-2">Relógios e Pulseiras</div>
-            <div class="buttons-white-2">Dispositivos Inteligentes</div>
-            <div class="buttons-white-2">Acessórios e Outros</div>
+            <div class="buttons-white-2"><h4>Smartphones</h4></div>
+            <div class="buttons-white-2"><h4>Áudio</h4></div>
+            <div class="buttons-white-2"><h4>Relógios e Pulseiras</h4></div>
+            <div class="buttons-white-2"><h4>Dispositivos<br>Inteligentes</h4></div>
+            <div class="buttons-white-2"><h4>Acessórios<br>e Outros</h4></div>
         </div>
 
 	</form>
