@@ -13,7 +13,7 @@ $(document).ready(function(){
 				var contador = 0;
 				var contador_por_categoria = 0;
 				
-				$(".lista_manuais .cat .smartphone").each(function(){
+				$(".lista_manuais .cat").each(function(){
 					contador_por_categoria = 0;
 					$(this).find("li").each(function(){
 						if( $(this).html().search(new RegExp(filter, "i")) >= 0 ){
