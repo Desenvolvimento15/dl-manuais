@@ -6,20 +6,14 @@
 @import url('https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css');
 @import url('https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css');
 
-
-@font-face {
-    font-family: 'Xiaomi Brand';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('https://i02.appmifile.com/i18n/fonts/Brand/Brand.woff2') format('woff2');
-}
-  
 ion-icon{
     width: 2rem;
     height: 1.5rem;
 }
 
+a{
+ text-decoration: none;
+}
 
 .wd-browsing-breadcrumbs{display:none!important;}
 
