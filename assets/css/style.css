@@ -3,22 +3,35 @@
     padding: 0;
 }
 
-@import url('https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css');
-@import url('https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css');
 
-ion-icon{
-    width: 2rem;
-    height: 1.5rem;
+@font-face {
+    font-family: MUSEOSANS-300;
+    src: url(../css/fonts/MUSEOSANS-300.OTF);
 }
 
+
+
+
+ion-icon{width: 2rem; height: 1.5rem;}
 a{
- text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-a{
+text-decoration: none;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
 }
 
 .wd-browsing-breadcrumbs{display:none!important;}
 
     p{
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #000;
@@ -36,7 +49,8 @@ a{
     margin-top: 3rem;
     align-content: center;
     max-width: 55%;
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
+    text-align: center;
     }
 
     .grid-buttons-02 {
@@ -49,29 +63,14 @@ a{
     width: 45rem;
     margin: 0 auto;
     margin-top: 2rem;
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
     text-align: center;
     }
 
     .buttons-white{
     color: #000;
-    width: 15rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    border: 2px solid  #A5CE38;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-        box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
-    }
-
-    .buttons-white:hover{
-    background-color: #A5CE38;
-    color: #fff;
-    width: 15rem;
-    height: 2rem;
+    width: 18rem;
+    height: 3rem;
     border-radius: 0.5rem;
     border: 2px solid #A5CE38;
     display: flex;
@@ -79,6 +78,23 @@ a{
     align-content: center;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    text-align: center;
+    }
+
+    .buttons-white:hover{
+    background-color: #A5CE38;
+    color: #fff;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 2px solid #A5CE38;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     
     .buttons-white-2 {
@@ -93,6 +109,7 @@ a{
     justify-content: center;
     align-items: center;
     box-shadow: 2px 1px 3px 0px rgba( 0, 0, 0, 0.2 );
+    text-align: center;
     }
 
     .buttons-white-2:hover{
@@ -107,17 +124,16 @@ a{
     justify-content: center;
     align-items: center;
     box-shadow: 2px 1px 3px 0px rgba( 0, 0, 0, 0.2 );
+    text-align: center;
     }
 
     div.conteudo_pagina_manuais h1.titulo{
     display: block;
     text-align: center;
     font-weight: normal;
-    font-size: 28px;
-    line-height: 33px;
-    margin-bottom: 23px;
-    font-family: 'Camphor Pro';
-    font-weight: bold;
+    font-size: 5rem;
+    font-family: 'MUSEOSANS-300';
+    font-weight: 750;
     }
 
     div.conteudo_pagina_manuais form#formulario-manuais {
@@ -132,7 +148,7 @@ a{
     width: 40%;
     max-width: 1200px;
     margin: auto !important;
-    height: 18px;
+    height: 3rem;
     padding: 10px 15px;
     border: 0.1rem solid  #A5CE38;
     background-color: #ffffff !important;
@@ -140,8 +156,9 @@ a{
     font-size: 17px;
     color: black ;
     outline: none;
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
     box-shadow: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    text-align: center;
     }
 
     div.conteudo_pagina_manuais ul.lista_manuais{
@@ -155,10 +172,10 @@ a{
     }
 
     div.conteudo_pagina_manuais ul.lista_manuais h4.titulo_secao{
-    font-size: 18px;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #212121;
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
     }
 
     div.conteudo_pagina_manuais ul.lista_manuais li p{
@@ -166,7 +183,7 @@ a{
     line-height: 18px;
     letter-spacing: 1px;
     color: #212121;
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
     }
 
     div.conteudo_pagina_manuais ul.lista_manuais li p span{
@@ -186,7 +203,7 @@ a{
     div.conteudo_pagina_manuais p.txt_aguarde, div.conteudo_pagina_manuais p.nenhum_resultado{
     font-size: 18px;
     color: #212121;
-    font-family: 'Camphor Pro', sans-serif;
+    font-family: 'MUSEOSANS-300';
     }
 
     @media screen and (max-width:991px){
