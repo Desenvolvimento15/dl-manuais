@@ -163,16 +163,11 @@ input[type=text] {
     padding: 15px 20px 12px 50px;
   }
 
-
-
-
 div.conteudo_pagina_manuais input#filter{
 display: block;
 width: 40%;
 max-width: 1200px;
 margin: auto !important;
-height: 3rem;
-
 border: 0.1rem solid  #A5CE38;
 background-color: #ffffff !important;
 border-radius: 7px !important;
