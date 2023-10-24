@@ -48,10 +48,10 @@ justify-content: center;
 align-items: center;
 gap: 1rem;
 margin: 0 auto;
-margin-bottom: 2rem;
+margin-bottom: 3rem;
 margin-top: 3rem;
 align-content: center;
-max-width: 55%;
+max-width: 61%;
 font-family: 'MUSEOSANS-300';
 text-align: center;
 }
@@ -72,7 +72,7 @@ text-align: center;
 
 .buttons-white{
 color: #000;
-width: 18rem;
+width: 16rem;
 height: 3rem;
 border-radius: 0.5rem;
 border: 2px solid #A5CE38;
@@ -88,7 +88,7 @@ text-align: center;
 .buttons-white:hover{
 background-color: #A5CE38;
 color: #fff;
-width: 18rem;
+width: 16rem;
 height: 3rem;
 border-radius: 0.5rem;
 border: 2px solid #A5CE38;
@@ -134,9 +134,11 @@ div.conteudo_pagina_manuais h1.titulo{
 display: block;
 text-align: center;
 font-weight: normal;
-font-size: 5rem;
+font-size: 3.5rem;
 font-family: 'MUSEOSANS-300';
 font-weight: 750;
+margin-bottom: 5rem;
+margin-top: 5rem;
 }
 
 div.conteudo_pagina_manuais form#formulario-manuais {
