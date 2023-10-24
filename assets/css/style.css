@@ -4,10 +4,7 @@
 }
 
 
-@font-face {
-    font-family: MUSEOSANS-300;
-    src: url(../css/fonts/MUSEOSANS-300.OTF);
-}
+@font-face {font-family: MUSEOSANS-300; src: url(../css/fonts/MUSEOSANS-300.OTF);}
 
 .text-input{
     background: url(../media/search-outline.svg);
@@ -149,19 +146,18 @@ margin-bottom: 30px;
 height: auto;
 }
 
-
 input[type=text] {
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('../media/search-outline.svg');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 15px 20px 12px 50px;
-  }
+width: 100%;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-image: url('../media/search-outline.svg');
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+padding: 15px 20px 12px 50px;
+}
 
 div.conteudo_pagina_manuais input#filter{
 display: block;
