@@ -4,6 +4,9 @@
 }
 
 
+
+
+
 @font-face {font-family: MUSEOSANS-300; src: url(../css/fonts/MUSEOSANS-300.OTF);}
 
 .text-input{
@@ -13,6 +16,8 @@
     background-position: 1rem 1rem ;
     padding: 12px 20px 12px 40px;
 }
+
+
 
 
 ion-icon{width: 2rem; height: 1.5rem;}
