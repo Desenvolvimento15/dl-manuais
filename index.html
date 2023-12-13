@@ -15,7 +15,6 @@
 
 <body>
 
-	<input type="file">
 
 <div class="conteudo_pagina_manuais">
 
@@ -238,6 +237,7 @@
 
 		<div class="cat">	
 		  <h4 class="titulo_secao">Relógios e pulseiras</h4>
+		  <ul id="cat">
 		  <li><p>Mi Band 3 Pulseira Inteligente: <a href="https://www.mibrasil.com.br/Custom/Content/Themes/Xiaomi/Manuais/Manual_Mi_Band_3_v02_20210525.pdf" target="_blank">Manual</a><br><span>Mi Band 3</span></p></li>
 		  <li><p>Mi Smart Band 4 Pulseira Inteligente: <a href="https://www.mibrasil.com.br/Custom/Content/Themes/Xiaomi/Manuais/20210514_Mi Band 4_manual_do_usuário.pdf" target="_blank" rel="noopener">Manual</a><br><span>Mi Smart Band 4</span></p></li>
 		  <li><p>Mi Smart Band 4C Pulseira Inteligente: <a href="https://www.mibrasil.com.br/Custom/Content/Themes/Xiaomi/Manuais/20210514_Mi_Smart_Band_4C_manual_do_usuário.pdf" target="_blank" rel="noopener">Manual</a><br><span>Mi Smart Band 4C</span></p></li>
@@ -250,6 +250,7 @@
 		  <li><p>Relógio Inteligente Amazfit Verge Lite: <a href="https://www.mibrasil.com.br/Custom/Content/Themes/Xiaomi/Manuais/20210517_Amazfit Verge Lite_Manual.pdf" target="_blank" rel="noopener">Manual</a><br><span>Amazfit Verge Lite</span></p></li>
 		  <li><p>Relógio Inteligente Mi Watch: <a href="https://www.mibrasil.com.br/Custom/Content/Themes/Xiaomi/Manuais/20210514_Mi_Watch_manual_do_usuário.pdf" target="_blank" rel="noopener">Manual</a><br><span>Mi Watch</span></p></li>
 		  <li><p>Relógio Inteligente Mi Watch Lite: <a href="https://www.mibrasil.com.br/Custom/Content/Themes/Xiaomi/Manuais/Manual_Mi_Watch_Lite_V02_20210525.pdf" target="_blank" rel="noopener">Manual</a><br><span>Mi Watch Lite</span></p></li>  
+		</ul>
 		</div>
 
 	<p class="nenhum_resultado" style="display:none;">Nenhum resultado encontrado!</p>
@@ -261,6 +262,13 @@
 </div>
 
 <script type="text/javascript" src="./assets/js/main.js"></script>
-
+<script>
+	$fetch('http://localhost:8001/api/produtos',function(data){
+		data.each(fucntion(val){
+		var html = ' <li><p>'+val.nome+': <a href="http://localhost:8001/uploads/'+val.arquivo+'" target="_blank">Manual</a><br><span>'+val.xiaomi+'</span></p></li>';
+			$("#cat").append(html)
+		})
+	})
+</script>
 </body>
 </html>
