@@ -131,11 +131,11 @@ div.conteudo_pagina_manuais h1.titulo{
 display: block;
 text-align: center;
 font-weight: normal;
-font-size: 3.5rem;
+font-size: 2.5rem;
 font-family: 'MUSEOSANS-300';
 font-weight: 750;
-margin-bottom: 5rem;
-margin-top: 5rem;
+margin-bottom: 3rem;
+margin-top: 3rem;
 }
 
 div.conteudo_pagina_manuais form#formulario-manuais {
