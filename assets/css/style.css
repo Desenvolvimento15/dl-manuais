@@ -28,6 +28,27 @@ justify-content: center;
 align-items: center;
 }
 
+
+nav{
+height: 5rem;
+width: 100%;
+background: #000;
+margin: 0 auto;
+}
+
+.ul-grid{
+    display: flex;
+    color: #fff;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 .wd-browsing-breadcrumbs{display:none!important;}
 
 p{
