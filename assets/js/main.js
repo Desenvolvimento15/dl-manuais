@@ -21,3 +21,6 @@ $(".btn-categoria").click(function() {
         scrollTop: ($(window).height() / 2) + $('li.li-cat').first().position().top
     }, 500);
 });
+
+
+
