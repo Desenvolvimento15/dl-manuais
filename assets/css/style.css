@@ -7,11 +7,11 @@ padding: 0;
 @font-face {font-family: 'MUSEOSANS-300'; src: url(../css/fonts/MUSEOSANS-300.OTF);}
 
 .text-input{
-    background: url(../media/search-outline.svg);
-    background-repeat: no-repeat;
-    background-size: 2rem;
-    background-position: 1rem 1rem ;
-    padding: 12px 20px 12px 40px;
+background: url(../media/search-outline.svg);
+background-repeat: no-repeat;
+background-size: 2rem;
+background-position: 1rem 1rem ;
+padding: 12px 20px 12px 40px;
 }
 
 ion-icon{width: 2rem; height: 1.5rem;}
@@ -30,22 +30,22 @@ align-items: center;
 
 
 nav{
-    height: 3.8rem;
-    width: 100%;
-    background: #000;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+height: 3.8rem;
+width: 100%;
+background: #000;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .ul-grid{
-    display: flex;
-    color: #fff;
- 
-    gap: 2rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
+display: flex;
+color: #fff;
+
+gap: 2rem;
+flex-direction: row;
+flex-wrap: nowrap;
 
 }
 
@@ -89,18 +89,18 @@ text-align: center;
 }
 
 .buttons-white {
-    color: #fff;
-    font-family: 'MUSEOSANS-300';
-    width: 17rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    border: 2px solid #fff;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+color: #fff;
+font-family: 'MUSEOSANS-300';
+width: 17rem;
+height: 2rem;
+border-radius: 0.5rem;
+border: 1px solid #fff;
+display: flex;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 .buttons-white:hover{
@@ -109,7 +109,7 @@ color: #fff;
 width: 17rem;
 height: 2rem;
 border-radius: 0.5rem;
-border: 2px solid #A5CE38;
+border: 1px solid #A5CE38;
 display: flex;
 flex-wrap: nowrap;
 align-content: center;
@@ -117,6 +117,9 @@ justify-content: center;
 align-items: center;
 text-align: center;
 }
+
+
+
 
 .buttons-white-2 {
 color: #000;
@@ -265,48 +268,52 @@ margin: 0 10px;
 
 .menu a {
 text-decoration: none;
-color: #333;
+color: #fff;
 }
-
-
-
 
 
 @media screen and (max-width:991px){
 
-div.conteudo_pagina_manuais form#formulario-manuais {
-padding: 30px 15px 60px 15px;
-}
 
-div.conteudo_pagina_manuais input#filter{
-width: 100%;
-}
+div.conteudo_pagina_manuais form#formulario-manuais {padding: 30px 15px 60px 15px;}
+div.conteudo_pagina_manuais input#filter{width: 100%;}
 
 nav {
-    height: 18.8rem;
-    width: 100%;
-    background: #000;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+height: 3.8rem;
+width: 100%;
+background: #000;
+margin: 0 auto;
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
 }
 
 .menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #f9f9f9;
-    padding: 10px 0;
-  }
+display: none;
+flex-direction: column;
+position: absolute;
+top: 60px;
+left: 0;
+width: 100%;
+background-color: #f9f9f9;
+padding: 10px 0;
+}
 
-  .menu-toggle {
-    display: block;
-  }
+.menu-toggle {
+display: block;
+}
+
+.grid-buttons-02 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+width: 100%;
+font-family: 'MUSEOSANS-300';
+text-align: center;
+}
 
 
 
