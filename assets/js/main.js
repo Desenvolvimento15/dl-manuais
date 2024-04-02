@@ -1,26 +1,31 @@
 $("#filter").keypress(function(event) {
     if (event.which == '13') {
         event.preventDefault();
-        // Faz scroll na metade da tela quando a busca estiver completa
-        $('html, body').animate({
-            scrollTop: ($(window).height() / 2) + $('li.li-cat').first().position().top
-        }, 500);
+        scrollToFirstVisible();
     }
 });
 
 $("li.li-cat").hide();
 
-$(".btn-categoria").click(function() {
-    var id_cat = $(this).attr("id");
-    // Esconde todos os itens da lista com a classe "li-cat"
-    $("li.li-cat").hide();
-    // Mostra itens da lista com a classe que coincide com o id do botão clicado
-    $("li." + id_cat).show();
-    // Faz scroll na metade da tela quando uma categoria for clicada
-    $('html, body').animate({
-        scrollTop: ($(window).height() / 2) + $('li.li-cat').first().position().top
-    }, 500);
+$("#filter").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".li-cat").hide().filter(function() {
+        return $(this).text().toLowerCase().indexOf(value) > -1;
+    }).show();
 });
 
+$(".btn-categoria").click(function() {
+    var id_cat = $(this).attr("id");
+    $("li.li-cat").hide();
+    $("li." + id_cat).show();
+    scrollToFirstVisible();
+});
 
-
+function scrollToFirstVisible() {
+    var firstVisible = $(".li-cat:visible:first");
+    if (firstVisible.length) {
+        $("html, body").animate({
+            scrollTop: firstVisible.offset().top - 200 // Ajuste de offset para uma rolagem mais suave
+        }, 500);
+    }
+}
