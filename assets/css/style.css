@@ -367,7 +367,7 @@ transition: transform 0.4s ease-in-out;
 .navbar .menu-items {
 padding-top: 72px;
 background: #000;
-height: 43vh;
+height: auto;
 width: 78%;
 transform: translate(-150%);
 display: flex;
