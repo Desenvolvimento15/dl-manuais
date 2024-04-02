@@ -170,7 +170,9 @@ background-repeat: no-repeat;
 padding: 15px 20px 12px 50px;
 }
 
-
+.li-mob{
+  color: #fff;
+}
 
 .menu{
 display: flex;
@@ -392,7 +394,7 @@ margin: auto;
 position: absolute;
 top: 20%;
 right: 15px;
-font-size: 1.2rem;
+font-size: 1rem;
 color: #fff;
 font-family: 'MUSEOSANS-300';
 }
