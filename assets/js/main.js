@@ -43,7 +43,7 @@ function scrollToFirstVisible() {
     var firstVisible = $(".li-cat:visible:first");
     if (firstVisible.length) {
         $("html, body").animate({
-            scrollTop: firstVisible.offset().top - 200 // Ajuste de offset para uma rolagem mais suave
+            scrollTop: firstVisible.offset().top - 1000 // Ajuste de offset para uma rolagem mais suave
         }, 500);
     }
 }
