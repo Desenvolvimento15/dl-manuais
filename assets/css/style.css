@@ -266,6 +266,17 @@ font-family: 'MUSEOSANS-300';
 
 @media screen and (max-width:991px){
 
+
+div.conteudo_pagina_manuais h1.titulo {
+display: block;
+text-align: center;
+font-weight: normal;
+font-size: 2rem;
+font-family: 'MUSEOSANS-300';
+font-weight: 750;
+margin-bottom: 3rem;
+margin-top: 3rem;
+}
 .img-mob{display: block;}
 .img-desk{display: none;}
 
