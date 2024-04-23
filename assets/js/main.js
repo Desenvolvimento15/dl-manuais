@@ -46,8 +46,7 @@ function scrollToFirstVisible() {
         var scrollOffset = firstVisible.offset().top - 100; // Ajuste o valor conforme necessário
 
         // Animação suave de rolagem para o elemento visível
-        $("html, body").animate({
-            scrollTop: scrollOffset
-        }, 500); // Ajuste a duração da animação conforme necessário (em milissegundos)
+        $("html, body").animate({scrollTop: scrollOffset}, 500); // Ajuste a duração da animação conforme necessário (em milissegundos)
     }
 }
+
