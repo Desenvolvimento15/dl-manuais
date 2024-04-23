@@ -42,8 +42,12 @@ $(".btn-categoria").click(function() {
 function scrollToFirstVisible() {
     var firstVisible = $(".li-cat:visible:first");
     if (firstVisible.length) {
+        // Calcula o offset de rolagem ajustado para um deslocamento mais suave
+        var scrollOffset = firstVisible.offset().top - 100; // Ajuste o valor conforme necessário
+
+        // Animação suave de rolagem para o elemento visível
         $("html, body").animate({
-            scrollTop: firstVisible.offset().top - 1000 // Ajuste de offset para uma rolagem mais suave
-        }, 500);
+            scrollTop: scrollOffset
+        }, 500); // Ajuste a duração da animação conforme necessário (em milissegundos)
     }
 }
