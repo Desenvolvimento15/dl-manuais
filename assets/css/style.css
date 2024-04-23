@@ -95,7 +95,7 @@ text-align: center;
 }
 
 .buttons-white:hover{
-background-color: #A5CE38;
+background: #A5CE38;
 color: #fff;
 width: 17rem;
 height: 2rem;
@@ -243,7 +243,7 @@ color: #A5CE38;
 text-decoration: none;
 }
 
-div.conteudo_pagina_manuais ul.lista_manuais li p a:hover{
+div.conteudo_pagina_manuais ul.lista_manuais li p a:focus{
 text-decoration: underline;
 }
 
@@ -329,7 +329,7 @@ padding: 0.7rem;
 font-family: 'MUSEOSANS-300';
 }
 
-.navbar .nav-container a:hover{
+.navbar .nav-container a:focus{
 font-weight: bolder;
 }
 
