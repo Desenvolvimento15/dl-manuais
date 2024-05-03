@@ -61,6 +61,7 @@ font-family: 'MUSEOSANS-300';
 text-align: center;
 }
 
+
 .grid-buttons-02 {
 display: flex;
 flex-direction: row;
@@ -246,7 +247,7 @@ color: #212121;
 font-family: 'MUSEOSANS-300';
 }
 
-div.loading, div.no-results{
+div.loading{
 font-size: 20px;
 line-height: 18px;
 letter-spacing: 1px;
@@ -254,11 +255,41 @@ color: #212121;
 font-family: 'MUSEOSANS-300';
 }
 
+div.no-results{
+font-family: 'MUSEOSANS-300';
+padding: 1rem;
+display: flex;
+align-content: center;
+justify-content: center;
+width: 15%;
+border-radius: 0.5rem;
+color: #fff;
+margin: 0 auto;
+margin-top: 1rem;
+background: #eb5757;
+font-size: 1rem;
+}
+
 .img-mob{display: none;}
 .img-desk{display: block;}
 
 @media screen and (max-width:991px){
 
+div.no-results{
+font-family: 'MUSEOSANS-300';
+display: flex;
+align-content: center;
+justify-content: center;
+max-width: 100%;
+width: 80%;
+border-radius: 0.5rem;
+color: #fff;
+margin: 0 auto;
+margin-top: 1rem;
+background: #eb5757;
+font-size: 1rem;
+text-align: center;
+}
 
 div.conteudo_pagina_manuais h1.titulo {
 display: block;
@@ -270,6 +301,7 @@ font-weight: 750;
 margin-bottom: 3rem;
 margin-top: 3rem;
 }
+
 .img-mob{display: block;}
 .img-desk{display: none;}
 
