@@ -50,3 +50,12 @@ function scrollToFirstVisible() {
     }
 }
 
+function mudarCor() {
+    var botao = document.querySelector('.buttons-white');
+    botao.classList.toggle('clicked');
+}
+
+$(".buttons-white-2").click(function(){
+    $(".buttons-white-2").css("background-color","#FFF");
+    $(this).css("background-color","#A5CE38");
+    })
